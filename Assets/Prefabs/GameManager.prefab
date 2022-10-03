@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6099806701252071141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6099806701252071143}
+  - component: {fileID: 6099806701252071142}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6099806701252071143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6099806701252071141}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6099806701252071142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6099806701252071141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c788573bca301904f8ab277b933af34e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeLevelIndex: 0
+  isLevelSpawned: 0
+  worldPrefab: {fileID: 2218547915582663894, guid: 08c435e1f71291c458d36cb54161171a, type: 3}
+  playerPrefab: {fileID: 774925045124504594, guid: 127a213b472bbb645a206bdcc80edcd2, type: 3}
+  canvasPrefab: {fileID: 4641321014806385893, guid: 0fa7044ec45b47f429d12d3383721155, type: 3}
+  Levels:
+  - {fileID: 2501983090144656470, guid: ab773bce7ac2e2547800aa273640f019, type: 3}
+  - {fileID: 1681875662291245933, guid: 7895645fc9c09b040ba7c8735dac0edf, type: 3}
+  - {fileID: 307181978113071589, guid: 621cc4ffe2aee5c4481c02f770d661f2, type: 3}
+  endPrefab: {fileID: 2117422993612384273, guid: afafd133c990e8d42a96736d6044ca8b, type: 3}
+  checkPoint: {x: 0, y: 0, z: 0}
+  nextBtn: {fileID: 0}
